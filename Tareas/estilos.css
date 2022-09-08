@@ -1,0 +1,66 @@
+table{
+    width: 100%;
+}
+.fondo {
+    background-color: rgb(9, 199, 174);
+}
+
+.margen1 {
+    width:100%;
+}
+
+.color1 {
+    background-color: rgb(245, 61, 61);
+}
+
+.color2 {
+    background-color: rgb(85, 153, 255);
+
+}
+
+.color3 {
+    background-color: rgb(162, 78, 241);
+}
+
+.color4 {
+    background-color: rgb(5, 211, 108) ;
+    color: white;
+    margin-bottom:-16px;
+}
+
+.color5 {
+    background-color: gold;
+    text-align: left;
+
+}
+
+.color6 {
+    background-color: white;
+    padding-right: 884px;
+}
+
+.color7 {
+    background-color: rgb(245, 61, 61);
+    color: white;
+    margin-bottom:-16px ;
+}
+
+.color8 {
+    background-color: rgb(151, 65, 231);
+    color: white;
+}
+
+.izquierda{
+    text-align: right;
+
+}
+
+.borde1 {
+    border: gray 2px outset;
+    background-color: black;
+}
+.blancas{
+    margin-bottom:-3px ;
+    color: white;
+
+}
