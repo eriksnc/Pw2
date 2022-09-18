@@ -3,6 +3,15 @@ function despedida(){
     alert("Adios popo");
 }
 
+function mensaje(){
+    alert("Mensaje");
+}
+function carita(){
+    alert("(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)");
+}
+function magia(){
+    alert("🐇Magia🐇");
+}
 console.log("Hola desde la consola :3");
 
 console.log("Este es un texto")
