@@ -1,0 +1,17 @@
+body{
+    background-image: radial-gradient(circle at 50% -3.46%, #c5ffff 0, #9bf2ff 25%, #5fd2e7 50%, #00b2d1 75%, #0099c2 100%);
+}
+header{
+
+    padding: 2%;
+}
+.image1{
+    width: 100%;
+}
+td{
+    padding: 2%;
+    text-align: center;
+}
+.marco{
+    background-color: #00bfe4;
+}
