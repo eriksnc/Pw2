@@ -1,35 +1,26 @@
 /*
-Funciones
-function suma (numero1,numero2){
-    console.log(numero1+numero2);    
-}
-function saludar(nombreUsuario){
-    console.log("Bienvenido: "+ nombreUsuario);
-}
-*/
+//Programa 1 Solicitud de un nombre
 
-// Programa 1 Solicitud de un nombre
 let nombre = prompt("Ingrese su nombre");
 console.log("Su nombre es:"+ nombre);
 
-// Programa 2 Suma de dos numeros
+//Programa 2 Suma de dos numeros
 
 let mult1 = parseInt(prompt("Ingrese el primer numero:"));
 let mult2 = parseInt(prompt("Ingrese el segundo numero:"));
 let suma = mult1+mult2;
 console.log("La suma es:"+ suma);
 
-// Programa 3 Compuertas logicas
+//Programa 3 Compuertas logicas
 
 let and = true && true;
 let or = true || false;
 let not = !false;
-
 console.log("Compuerta AND: true && true"+"\nCompuerta OR: true || false"+"\nCompuerta NOT: !false");
 console.log("Compuerta AND: "+and+"\nCompuerta OR: "+or+"\nCompuerta NOT: "+not);
 
+//Programa 4 Uso de las sentencias de control if y else
 
-// Programa 4 Uso de las sentencias de control if y else
 let valor = parseInt(prompt("Ingrese un numero mayor a 5:"));
 if(valor > 5){
     console.log("Bien hecho :3");
@@ -38,8 +29,7 @@ if(valor > 5){
     console.log("Esto no es mayor a 5 :c");
 }
 
-
-// Programa 5 Adicinar un numero aleatorio entre el 1 al 10
+//Programa 5 Adivinar un numero aleatorio entre el 1 al 10
 
 let numeroMaquina = Math.floor(Math.random() * (10 - 1) + 1);
 console.log(numeroMaquina);
@@ -60,3 +50,5 @@ while(numeroMaquina != numeroUser && vidas > 1){
 if(numeroMaquina == numeroUser){
     console.log("Ganaste");
 }
+
+*/
