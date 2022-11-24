@@ -1,5 +1,6 @@
 body{
-    background-image: radial-gradient(circle at 14.64% 111.24%, #ff3fc4 0, #ff3bc2 25%, #eb38be 50%, #d135b9 75%, #b934b4 100%);
+    
+    background-image: radial-gradient(circle at 50% 50%, #c6ffff 0, #a9ffff 16.67%, #80ffff 33.33%, #3cf2f2 50%, #00d9e3 66.67%, #00c6da 83.33%, #00b7d5 100%);
 }
 header{
 
@@ -12,4 +13,3 @@ td{
     padding: 2%;
     text-align: center;
 }
-
