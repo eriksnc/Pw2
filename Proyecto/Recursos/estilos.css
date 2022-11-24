@@ -8,26 +8,83 @@ header{
 }
 .image1{
     width: 50%;
-}
-td{
-    padding: 2%;
-    text-align: center;
-}
-.cuadro{
-    background-image: radial-gradient(circle at 50% -20.71%, #a8cbff 0, #177ee8 50%, #003cae 100%);
-    box-shadow: 1px 4px 8px 1px rgb(38 148 238);
-    padding: 1%;
-    width: 10%;
-    margin-left: 19%;
-    margin-top: -13%;
-    margin-bottom: 5%;
-    color: white;
-}
-.marco{
     border-radius: 10px;
     color: black;
     font-size: 20px;
     font-weight: 500;
     margin: 50px 20px 0px 20px;
     padding: 15px 0px;
+    background-image: linear-gradient(180deg, #8c97ff 0, #486ee5 50%, #0049c5 100%);
+}
+td{
+    padding: 3%;
+    text-align: center;
+}
+td:hover{
+    background-image: linear-gradient(40deg, #eff5fd 0, #ecf2f8 5.56%, #eaeef2 11.11%, #e7e9eb 16.67%, #e5e3e2 22.22%, #e4dcd9 27.78%, #e2d4d0 33.33%, #e0cbc7 38.89%, #dec1be 44.44%, #dbb6b6 50%, #d8abaf 55.56%, #d4a1ab 61.11%, #cf98a9 66.67%, #c990a8 72.22%, #c38aa9 77.78%, #bc85ab 83.33%, #b482ae 88.89%, #ab80b2 94.44%, #a17fb6 100%);
+}
+.cuadro{
+    background-image: linear-gradient(5deg, #ff6b4c 0, #ff5a52 16.67%, #ff4a56 33.33%, #ff3858 50%, #ec2659 66.67%, #d9145a 83.33%, #c8005b 100%);    
+    box-shadow: 7px 15px 34px -3px rgb(236 12 12);
+    padding: 1%;
+    width: 30%;
+    margin-top: 3%;
+    border-radius: 50%;
+}
+.cuadro1{
+    background-image: radial-gradient(circle at 0% 0%, #ffac3f 0, #ff9631 25%, #f37b1f 50%, #e75e0f 75%, #de430c 100%);
+    box-shadow: 7px 15px 34px -3px rgb(236 12 12);
+    padding: 1%;
+    width: 100%; 
+    border-radius: 50%;
+}
+
+.cuadro2{
+    box-shadow: 7px 15px 34px -3px rgb(37, 235, 152);
+    padding: 1%;
+    width: 100%; 
+    border-radius: 50%;
+    background-image: radial-gradient(circle at 43.84% 120.44%, #e4ed69 0, #d0ec69 12.5%, #b6e664 25%, #95db5b 37.5%, #6acc50 50%, #30bc48 62.5%, #00b147 75%, #00a94e 87.5%, #00a65a 100%);
+}
+
+.cuadro3{
+    box-shadow: 7px 15px 34px -3px rgb(5, 100, 243);
+    padding: 1%;
+    width: 100%; 
+    border-radius: 50%;
+    background-image: linear-gradient(180deg, #b2f4fe 0, #8fe5f7 16.67%, #63d4f2 33.33%, #0cc1ed 50%, #00aee9 66.67%, #009ce6 83.33%, #008be3 100%);
+}
+.cuadro4{
+    background-image: linear-gradient(190deg, #ff9fff 0, #ff9bef 3.33%, #ff9adb 6.67%, #ff9ac6 10%, #ff9db3 13.33%, #ffa29f 16.67%, #ffa88d 20%, #ffaf7c 23.33%, #ffb76c 26.67%, #ffbf5d 30%, #ffc850 33.33%, #ffcf46 36.67%, #ffd73e 40%, #ffde3a 43.33%, #f2e43c 46.67%, #deea42 50%, #c9ef4c 53.33%, #b3f459 56.67%, #9af868 60%, #7efb79 63.33%, #59fe8b 66.67%, #08ff9f 70%, #00ffb3 73.33%, #00ffc8 76.67%, #00ffdd 80%, #00fff2 83.33%, #00ffff 86.67%, #00ffff 90%, #00ffff 93.33%, #00ffff 96.67%, #00ffff 100%);
+    box-shadow: 7px 15px 34px -3px rgb(250, 253, 64);
+    padding: 1%;
+    width: 100%; 
+    border-radius: 50%;
+}
+.marco{
+    border-radius: 500%;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 50px 20px 0px 20px;
+    padding: 15px 0px;
+}
+.centrado{
+    margin-left: 25%;
+}
+.centrado1{
+    margin-left: 37%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.001px;
+}
+a:hover{
+    text-shadow: #00b7d5;
+    font-size: 130;
+    background-color: #00b7d5;
+}
+.tabla{
+    padding: 20px;    
 }
