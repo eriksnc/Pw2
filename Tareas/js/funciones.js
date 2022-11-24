@@ -7,7 +7,7 @@ function mensaje(){
     alert("Mensaje");
 }
 function carita(){
-    alert("(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)");
+    alert("(☞ﾟヮﾟ)☞  Adios ☜(ﾟヮﾟ☜)");
 }
 function magia(){
     alert("🐇Magia🐇");

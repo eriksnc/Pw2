@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../Proyecto/Recursos/Imagenes/Miniyo.png">
     
     <title>USANDO JS</title>
 
@@ -14,44 +15,73 @@
     </script>
 
 </head>
-<body bgcolor="darkgreen">
-    <div>
-    <h1>Apuntes de la Clase :)</h1>
-    <p>Hacer uso del alert es una mala practica  
-    No es bueno juntar JAVA SCRIPT con HTML porque contaminamos</p>
-    <br>
-    <p>Para eso usaremos un archivo externo que tendra la extension .js</p>
-    <br>
-    <p>tenemos que respertar el no utilizar espacios usaremos funcionUNO o guiones bajos funcion_Uno</p>
-    <br>
-    <p>No usar ñ o tildes </p>
-    <p> Evita los caracteres especiales</p>
-    <br>
-    <p>Cuando el navegador encuentra un bloque de java script generalmente lo ejecuta en el orden  de arriba abajo por lo tanto debemos de tener cuidado el orden en el que se ejecuta</p>
-    <br>
-    <p>JS es un lenguaje que distingue minusculas y mayusculas</p>
-    </div>
-    <script>
+<style>
+    .circulo{
+    background-image: radial-gradient(circle at 50% -20.71%, #a8cbff 0, #177ee8 50%, #003cae 100%);
+    box-shadow: 1px 4px 8px 1px rgb(38 148 238);
+    padding: 10%;
+    width: 0%;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-bottom: -9%;
     
+    }
+    .link{
+        text-decoration:none;
+        color: white;
+        border-radius: 10px;
+    }
+
+</style>
+
+
+<body style="background-image: radial-gradient(circle at 43.84% -20.44%, #bfc74d 0, #a6c045 16.67%, #87b538 33.33%, #5ea426 50%, #2a9316 66.67%, #008714 83.33%, #007f1c 100%);">
+    <div style="text-align:center ;">
+    <h1>PROBANDO FUNCIONES SIN PARAMETRO Y MANDOLOS A LLAMAR CON BOTONES :)</h1> <br>
+    <p><h1>
+        Realizamos un script el cual contiene funciones de mensaje al momento de darle click a un boton
+        estos nos van arrojar un mensaje y lo logramos mandandolos a llamar con el nombre de la funcion y con parentesis.
+        <br>
+        Tambien hicimos uso de console.log probando varios valores los cuales se imprimieron en consola
+    </h1></p>    
+    </div>
+    <script>    
     function saludos(){
         alert("Saludos desde el body con ayuda de una funcion")
     }
     </script>
-
-    <hr> <br> <br>
+    
+    <br> <br>
     <script src="../js/funciones.js">
 
     </script>
 
     <center>
-    <section> 
+    <section style="padding: 3% ;"> 
         <button onclick="saludos()"style="margin-right:2%;">TOUCH ME</button>
         <button onclick="despedida()" style="margin-right:2%;">DON'T TOUCH ME</button>
         <button onclick="mensaje()" style="margin-right:2%;">Mensaje</button>
         <button onclick="carita()" style="margin-right:2%;"><a href="https://eriksnc.github.io/Pw2/Proyecto/index.html">Regreso al index</a></button>
-        <button onclick="magia()">Magia🎩</button>
-        
+        <button onclick="magia()">Magia🎩</button>        
     </section>
-</center>
+    <div class="circulo">      
+    </div>
+    <img src="../../Proyecto/Recursos/Imagenes/anya.gif" alt="Anya" 
+    style="margin-top: -25%; width: 20%;">
+
+    </center>
+    <div style="padding-left: 44%;
+    font-size: 150%; color: white; margin-top: -2%;">
+    <h1>Otras tareas</h1>       
+    <div>                                
+        <a href="https://eriksnc.github.io/Pw2/Tareas/index.html"class="link" >Tarea 1</a>
+        <a href="https://eriksnc.github.io/Pw2/Tareas/Tarea_5/index.html" class="link">Tarea 5</a>
+        <a href="https://eriksnc.github.io/Pw2/Tareas/Ej_Carrito/index.html"class="link">Tarea 7</a>            
+    </div>  
+    </div>
+    
+    <footer style="padding:10% ;">                
+              
+    </footer>
 </body>
 </html>

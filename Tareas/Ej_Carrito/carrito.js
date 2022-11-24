@@ -14,6 +14,7 @@ while(confirm("Deseas continuar")){
 }
 
 //Realiza la impresion de lo que se encuentre en el carrito
+console.log("El carrito de compras tiene:");
 for( let i = 0; i < carrito.length; i++){
     console.log(carrito[i]);
 }

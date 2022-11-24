@@ -4,34 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../Proyecto/Recursos/Imagenes/carrito.png">
     <title>Ejercicio carrito</title>
-    <script src="carrito.js"></script>
-</head>
-
-<body style="background-image: radial-gradient(circle at 52.43% 50%, #fa94b2 0, #ef87ae 16.67%, #e077a6 33.33%, #cd639d 50%, #b95094 66.67%, #a8418f 83.33%, #98378d 100%);">
-    <header>
-        <nav style="text-align: center;">
-            <h1>Otras tareas</h1>            
-            <div>
-            <a href="https://eriksnc.github.io/Pw2/Tareas/index.html">Tarea 1</a>
-            <a href="https://eriksnc.github.io/Pw2/Tareas/Tarea_5/index.html">Tarea 5</a>
-            <a href="https://eriksnc.github.io/Pw2/Tareas/paginas/Tarea%206%20JS">Tarea 6</a>            
-            </div>
-        </nav>        
-    </header>
     
+</head>
+<style>
+    .marco{        
+        background-image: radial-gradient(circle at 50% 120.71%, #ffb98d 0, #ffae8b 12.5%, #ff9f86 25%, #ff8b7e 37.5%, #ff7373 50%, #f05a6a 62.5%, #e34365 75%, #d93066 87.5%, #d2226a 100%);
+        border-radius: 15%;
+        padding: 2%;
+        margin-left: -51%;
+        font-size: 123%;
+    }
+    .link{
+        text-decoration: none;
+        color: white;
+    }
+    .link2{
+        text-decoration: none;
+        color: black;
+    }
+    .cat{
+        width: 30%;
+        padding-left: 42%; 
+        padding-bottom: 0%;        
+    }
+    .fondo{
+        background-image: radial-gradient(circle at 50% -3.03%, #a89ef8 0, #8085ef 25%, #486ee5 50%, #0059db 75%, #0048d2 100%);
+        margin-right: 85%;        
+        font-size: 220%;
+        text-align: center;
+        border-radius: 20%;;
+    }
+    body{
+        background-image: radial-gradient(circle at 52.43% 50%, #fa94b2 0, #ef87ae 16.67%, #e077a6 33.33%, #cd639d 50%, #b95094 66.67%, #a8418f 83.33%, #98378d 100%);
+    }
+</style>
+<body>    
+    <script src="carrito.js" class="marco"></script>
     <div >   
         <br> 
-        <h1>  <center> PRACTICA CARRITO DE COMPRAS:</center>
+        <h1 style="text-align:center;"> PRACTICA CARRITO DE COMPRAS <br>
             El objetivo es crear una aplicacion que nos permita 
-            ir agregando elementos a un carrito de compras.
-            Con uso de arreglos.</h1>
+            ir agregando elementos a un carrito de compras el cual el usuario tiene la capacidad de ingresar
+            la fruta que desee y de igual manera haciendo uso de arreglos.
+            </h1>
+    </div>
+    <div class="cat">
+        <img src="../../Proyecto/Recursos/Imagenes/309268348_1287051515397297_5785766696518102325_n.png" alt="Gato" width="50%" style="border-radius:10%;">
+        <button class="marco"><a href="https://eriksnc.github.io/Pw2/Proyecto/index.html" class="link2">Regreso a la pagina principal</a></button>
     </div>    
-    <img src="../../Proyecto/Recursos/Imagenes/309268348_1287051515397297_5785766696518102325_n.png" alt="Gato"
-    style = "width: 30%; padding-left: 40%; padding-bottom: 5%;">
     
-    <footer style="padding-left:50%">
-        <button><a href="https://eriksnc.github.io/Pw2/Proyecto/index.html">Regreso a la pagina principal</a></button>
+    <footer style="padding-left:45%; font-size: medium;">                
+        <h1>Otras tareas</h1>       
+        <div class="fondo">                                
+            <a href="https://eriksnc.github.io/Pw2/Tareas/index.html" class="link">Tarea 1</a>
+            <a href="https://eriksnc.github.io/Pw2/Tareas/Tarea_5/index.html" class="link">Tarea 5</a>
+            <a href="https://eriksnc.github.io/Pw2/Tareas/paginas/Tarea%206%20JS" class="link">Tarea 6</a>            
+        </div>        
     </footer>
 </body>
 </html>
