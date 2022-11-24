@@ -1,5 +1,5 @@
 body{
-    background-image: radial-gradient(circle at 50% -3.46%, #c5ffff 0, #9bf2ff 25%, #5fd2e7 50%, #00b2d1 75%, #0099c2 100%);
+    background-image: radial-gradient(circle at 14.64% 111.24%, #ff3fc4 0, #ff3bc2 25%, #eb38be 50%, #d135b9 75%, #b934b4 100%);
 }
 header{
 
@@ -12,6 +12,4 @@ td{
     padding: 2%;
     text-align: center;
 }
-.marco{
-    background-color: #00bfe4;
-}
+

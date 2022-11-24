@@ -10,6 +10,7 @@ const carrito = [];
 while(confirm("Deseas continuar")){
     //Solicitamos al usuario que ingrese una fruta y la guarde en el Array carrito
     carrito.push(prompt("Que fruta quieres?"));
+
 }
 
 //Realiza la impresion de lo que se encuentre en el carrito
